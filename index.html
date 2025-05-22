@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codecademy-cheatsheet</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
+</head>
+<body>
+    <main>
+        <nav>
+            <h4>Table of Content</h4>
+            <ul class="btn-link">
+                <li>
+                    <a href="#basic">Basic</a>
+                </li>
+                <li>
+                    <a href="#ids-classes">ID & Classes</a>
+                </li>
+                <li>
+                    <a href="#typography">Typography</a>
+                </li>
+                <li>
+                    <a href="#tables">Tables</a>
+                </li>
+                <li>
+                    <a href="#lists">Lists</a>
+                </li>
+                <li>
+                    <a href="#images">Images</a>
+                </li>
+                <li>
+                    <a href="#links">Links</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="sticky-right">
+            <div class="main">
+                <h1>HTML & CSS Cheatsheet</h1>
+                <p class="info">Learn HTML and CSS with this cheatsheet. This cheatsheet is designed to help you quickly reference HTML and CSS syntax, properties, and values.</p>
+                <section id="basic">
+                    <div class="general">
+                        <h2>Basic HTML</h2>
+                        <p>HTML (Hypertext Markup Language) is the standard markup language for creating web pages. It describes the structure of a webpage using elements and tags.</p>
+                        <h3>HTML tags</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code"><code>&lt;!DOCTYPE html&gt;</code></span></td>
+                                        <td>Defines the document type and version of HTML.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code"><code>&lt;html&gt;</code></span></td>
+                                        <td>The root element of an HTML page.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code"><code>&lt;head&gt;</code></span></td>
+                                        <td>Contains meta-information about the document.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code"><code>&lt;body&gt;</code></span></td>
+                                        <td>Contains the content of the document.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;link rel="stylesheet" href="styles.css"&gt;</span></td>
+                                        <td>Links an external CSS stylesheet to the HTML document.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;div&gt;</span></td>
+                                        <td>Defines a division or section in an HTML document.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;span&gt;</span></td>
+                                        <td>An inline container used to mark up a part of a text, or a section in a document.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h3>CSS Attributes</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Attribute</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">background-color</span></td>
+                                        <td>Sets the background color of an element.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">color</span></td>
+                                        <td>Sets the text color of an element.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                </section>
+                <section id="ids-classes">
+                    <div class="general">
+                        <h2>IDs & Classes</h2>
+                        <p>IDs and classes are used to select and style HTML elements with CSS.</p>
+                        <h3>HTML Tags</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">&lt;id=""&gt;</span></td>
+                                        <td>Specifies a unique id for an HTML element, can only be used for one HTML element within the page.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;class=""&gt;</span></td>
+                                        <td>Specifies a class for an HTML element, can be used for multiple HTML elements within the page.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h3>CSS attributes</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Attribute</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">#</span></td>
+                                        <td><span class="code">#id</span> in CSS, can only be used for one element within the page</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">.</span></td>
+                                        <td><span class="code">.class</span> in CSS, can be used for multiple elements within the page</td>
+                                    </tr>
+                                </tbody>
+                            </table>    
+                        
+                    </div>
+
+                </section>
+                <section id="typography">
+                    <div class="general">
+                        <h2>Typography</h2>
+                        <p>Typography refers to the style and appearance of printed matter. In web design, it involves the use of fonts, sizes, spacing, and other text properties.</p>
+                        <h3>HTML Tags</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">&lt;h1&gt; to &lt;h6&gt;</span></td>
+                                        <td>Defines HTML headings, from largest<span class="code">&lt;h1&gt;</span> to smallest<span class="code">&lt;h6&gt;</span>, do not skip headings  .</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;p&gt;</span></td>
+                                        <td>Defines a paragraph.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;strong&gt;</span></td>
+                                        <td>Defines important text and makes it bold.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;em&gt;</span></td>
+                                        <td>Defines emphasized text.</td>
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+                        <h3>CSS Attributes</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Attribute</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">font-family</span></td>
+                                        <td>Specifies the font for an element.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">font-size</span></td>
+                                        <td>Specifies the size of the font.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">font-weight</span></td>
+                                        <td>Specifies the weight of the font.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">text-transform</span></td>
+                                        <td>Specifies how to capitalize an element's text like <span class="code">capitalize</span>,<span class="code">uppercase</span>,<span class="code">lowercase</span><span class="code">lowercase</span>,<span class="code">none</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">text-align</span></td>
+                                        <td>Sets the horizontal alignment of the inline-level content inside a block element or table-cell box like<span class="code">center</span>,<span class="code">start</span>,<span class="code">end</span>,<span class="code">justify</span></td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                    </div>
+
+                </section>
+                <section id="tables">
+                    <div class="general">
+                        <h2>Tables</h2>
+                        <p>Tables are used to display data in a structured format. They consist of rows and columns.</p>
+                        <h3>HTML Tags</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">&lt;table&gt;</span></td>
+                                        <td>Defines a table.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;thead&gt;</span></td>
+                                        <td>Defines the header section of a table.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;tr&gt;</span></td>
+                                        <td>Defines a row in a table.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;th&gt;</span></td>
+                                        <td>Defines a header cell in a table.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;tbody&gt;</span></td>
+                                        <td>Defines the body section of a table.</td>
+                                    <tr>
+                                        <td><span class="code">&lt;td&gt;</span></td>
+                                        <td>Defines a standard cell in a table.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;tfoot&gt;</span></td>
+                                        <td>Defines the footer section of a table.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">colspan</span></td>
+                                        <td>Specifies the number of columns a cell should span.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">rowspan</span></td>
+                                        <td>Specifies the number of rows a cell should span.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        <h3>CSS Attributes</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Attribute</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">border</span></td>
+                                        <td>Sets the border of a table - including width, style and color</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">padding</span></td>
+                                        <td>Defines the space between the cell content and its border, apply to <span class="code">&lt;td&gt;</span>and<span class="code">&lt;th&gt;</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">border-spacing</span></td>
+                                        <td>Defines the space between cells in a table, use on<span class="code">&lt;table&gt;</span>property</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                </section>
+                <section id="lists">
+                    <div class="general">
+                        <h2>Lists</h2>
+                        <p>Lists are used to group related items together. There are two types of lists: ordered and unordered.</p>
+                        <h3>HTML Tags</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">&lt;ul&gt;</span></td>
+                                        <td>Defines an unordered list.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;ol&gt;</span></td>
+                                        <td>Defines an ordered list.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span class="code">&lt;li&gt;</span></td>
+                                        <td>Defines a list item.</td>
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+                    </div>
+                </section>
+                <section id="images">
+                    <div class="general">
+                        <h2>Images</h2>
+                        <p>Images are used to display pictures on a webpage. They can be linked to other pages or websites.</p>
+                        <h3>HTML Tags</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">&lt;img src="" alt=""&gt;</span></td>
+                                        <td>Defines an image, with the source and alternative text.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                    </div>
+                </section>
+                <section id="links">
+                    <div class="general">
+                        <h2>Links</h2>
+                        <p>Links are used to navigate between pages or websites. They can be styled with CSS.</p>
+                        <h3>HTML Tags</h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th class="first-col">Tag</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><span class="code">&lt;a href=""&gt;</span></td>
+                                        <td>Defines a hyperlink, with the URL and text.</td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                </section>
+            </div> 
+
+        </div>
+    </main>
+    <footer>
+        <p>Created by Eirik Hansson Geitle</p>
+        <p>Codecademy HTML & CSS Course</p>
+</body>
+</html>
